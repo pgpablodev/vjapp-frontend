@@ -1,0 +1,14 @@
+.contenedor-ver{
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}

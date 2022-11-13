@@ -1,0 +1,134 @@
+.videojuego{
+    display: flex;
+    flex-direction: column;    
+    background-color: #D9F9A5;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.articulo{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-izq{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.nombre{
+    color: #68534D;
+    font-weight: 700;
+    font-size: 36px;
+    width: 400px;
+}
+
+.portada{
+    width: 350px;
+    height: 327px;
+}
+
+.portada > img{
+    width: max-content;
+    height: 327px;
+}
+
+.precio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    row-gap: 5px;
+    font-size: 24px; 
+    width: 230px;   
+}
+
+.precio-numero{
+    display: flex;
+    flex-direction: row;
+}
+
+.precio-comprar{
+    color: #68534D;
+}
+
+.precio-valor{
+    color: rgb(92, 92, 92);
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.precio-divisa{
+    margin-top: 10px;
+    color: rgb(92, 92, 92);
+    font-weight: 700;
+}
+
+.botones{
+    margin-top: 10px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+}
+
+.boton{
+    text-align: center;
+    width: 120px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    background-color: #68534D;
+    color: #D9F9A5;
+}
+
+.boton:hover{
+    background-color: #81726A;
+    cursor: pointer;
+}
+
+.boton:focus{
+    background-color: #3B2F2B;
+}
+
+.boton-eliminar{
+    width: 120px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    background-color: #a53b3b;
+    color: #ffffff;
+}
+
+.boton-eliminar:hover{
+    background-color: #d68d8d;
+    cursor: pointer;
+}
+
+.boton-eliminar:focus{
+    background-color: #782b2b;
+}
+
+.delete-screen{
+    visibility: hidden;
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.95);
+    width: 630px;
+    height: 450px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    border-radius: 10px;
+}
+
+.delete-text{
+    margin-top: 60px;
+    font-weight: 700;
+}
+
+.delete-buttons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-left: 175px;
+}

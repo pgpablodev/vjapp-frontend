@@ -1,0 +1,57 @@
+.agregar{
+    position: absolute;
+    top: 100px;
+    left: 25px;
+}
+
+.field{
+    position: absolute;
+    top: 90px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.input{
+    margin-bottom: 20px;
+    outline: none;
+    height: 30px;
+    background-color: #F8FED7;
+    border: 1px solid #D0D487;
+}
+
+#foto{
+    height: 22px;
+}
+
+#field-btns{
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+#guardar, #volver{
+    width: 120px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+}
+
+#volver{
+    background-color: #A0A53B;
+    color: #68534D;
+}
+
+#volver:hover{
+    background-color: #D2D68D;
+}
+
+#volver:focus{
+    background-color: #74782B;
+}
+
+button{
+    border: none;    
+}
